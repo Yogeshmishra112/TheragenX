@@ -74,9 +74,9 @@ export default function Home() {
     <div className="flex min-h-screen flex-col overflow-hidden">
       <Navbar />
 
-      <main className="flex-1 px-4">
+      <main className="flex-1 px-4 bg-slate-100">
         {/* Hero Section with Background Animation */}
-        <section className="relative w-full pt-24 pb-12 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 overflow-hidden border-l-4 border-b-4 border-black rounded-bl-[80px] my-4 shadow-lg bg-gradient-to-br from-gray-50 via-white to-gray-100">
+        <section className="relative w-full pt-24 pb-12 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 overflow-hidden border-l-4 border-b-4 border-black rounded-bl-[80px] my-4 shadow-2xl bg-gradient-to-br from-gray-50 via-white to-gray-100">
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100/50 via-transparent to-transparent"></div>
   <div className="container relative z-10 px-4 md:px-6">
     <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">

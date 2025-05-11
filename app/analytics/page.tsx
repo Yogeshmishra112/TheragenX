@@ -31,10 +31,10 @@ export default function AnalyticsPage() {
    <div className="flex min-h-screen flex-col overflow-hidden">
          <Navbar />
    
-         <main className="flex-1 px-4">
+         <main className="flex-1 px-4 bg-slate-100">
              {/* Hero Section with Background Animation */}
              <div className="relative">
-               <section className="relative w-full pt-24 pb-12 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 border-r-4 border-b-4 border-black rounded-br-[80px] my-4 shadow-lg bg-gradient-to-br from-gray-50 via-white to-gray-100 z-10">
+               <section className="relative w-full pt-24 pb-12 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 border-r-4 border-b-4 border-black rounded-br-[80px] my-4 shadow-2xl bg-gradient-to-br from-gray-50 via-white to-gray-100 z-10">
                  {/* Decorative background */}
                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100/50 via-transparent to-transparent"></div>
 
