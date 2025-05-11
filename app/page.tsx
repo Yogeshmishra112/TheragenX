@@ -541,9 +541,8 @@ decision-making at scale.
   </div>
 </section>
 
-
-<section className="relative w-full py-20 px-6 md:px-12 bg-gradient-to-br from-gray-100 to-white mt-2">
-  <div className="max-w-7xl mx-auto">
+<section className="relative w-full py-20 px-6 md:px-12 bg-gradient-to-br from-gray-100 to-white mt-2 shadow-black shadow-2xl">
+  <div className="max-w-4xl mx-auto">
     {/* Section Header */}
     <div className="text-center mb-16">
       <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
@@ -554,88 +553,101 @@ decision-making at scale.
       </p>
     </div>
 
-    {/* Grid for Items */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    {/* Flex Column for Items */}
+    <div className="flex flex-col gap-10">
       {/* 1 */}
-      <div className="flex flex-col items-center text-center p-6 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="flex flex-col items-center text-center p-8 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
         <div className="bg-black text-white p-4 rounded-full mb-4">
+          {/* Icon */}
           <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M9 12l2 2l4-4m5 2a9 9 0 11-18 0a9 9 0 0118 0z" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Structured, Transparent Data</h3>
-        <p className="text-gray-600 text-sm">
-          Clean and connected data flow, fully traceable for global regulatory compliance.
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">Structured, Transparent Data</h3>
+        <p className="text-gray-600 text-base">
+        Transforms unstructured inputs—from literature to
+clinical trial reports—into clean, connected data. Every decision and data flow is
+traceable, meeting the expectations of global regulators like the FDA, EMA, PMDA, and
+MHRA. </p>
       </div>
 
       {/* 2 */}
-      <div className="flex flex-col items-center text-center p-6 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="flex flex-col items-center text-center p-8 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
         <div className="bg-black text-white p-4 rounded-full mb-4">
+          {/* Icon */}
           <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Built-in Compliance Algorithms</h3>
-        <p className="text-gray-600 text-sm">
-          AI assistants follow updatable rules to stay aligned with evolving regulations.
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">Built-in Compliance Algorithms</h3>
+        <p className="text-gray-600 text-base">
+        AI assistants follow pre-set, easily updatable triage
+and compliance rules—keeping your teams aligned with evolving regulations without
+the need for constant retraining. </p>
       </div>
 
       {/* 3 */}
-      <div className="flex flex-col items-center text-center p-6 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="flex flex-col items-center text-center p-8 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
         <div className="bg-black text-white p-4 rounded-full mb-4">
+          {/* Icon */}
           <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M8 16l-4-4l4-4m8 8l4-4l-4-4" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Standardized Global Workflows</h3>
-        <p className="text-gray-600 text-sm">
-          Templates and frameworks based on MedDRA, ICH E2B ensure regional consistency.
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">Standardized Global Workflows</h3>
+        <p className="text-gray-600 text-base">
+        - Predefined templates and decision frameworks based
+on MedDRA, ICH E2B, and other standards ensure consistency across regions while
+minimizing compliance risk.</p>
       </div>
 
       {/* 4 */}
-      <div className="flex flex-col items-center text-center p-6 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="flex flex-col items-center text-center p-8 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
         <div className="bg-black text-white p-4 rounded-full mb-4">
+          {/* Icon */}
           <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Real-Time Consistency Checks</h3>
-        <p className="text-gray-600 text-sm">
-          Detects errors instantly, minimizing inspection risks and manual corrections.
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">Real-Time Consistency Checks</h3>
+        <p className="text-gray-600 text-base">
+        Automatically detects missing data, classification errors,
+or inconsistencies—reducing inspection findings and manual rework.
+ </p>
       </div>
 
       {/* 5 */}
-      <div className="flex flex-col items-center text-center p-6 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="flex flex-col items-center text-center p-8 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
         <div className="bg-black text-white p-4 rounded-full mb-4">
+          {/* Icon */}
           <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M12 8v4l3 3m6 2a9 9 0 11-18 0a9 9 0 0118 0z" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Instantly Adaptable</h3>
-        <p className="text-gray-600 text-sm">
-          Easily update workflows as new safety and risk regulations emerge.
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">Instantly Adaptable to Regulatory Changes</h3>
+        <p className="text-gray-600 text-base">
+        Easily reconfigure workflows and rules in
+response to new safety or risk management requirements—staying compliant without
+delay </p>
       </div>
 
       {/* 6 */}
-      <div className="flex flex-col items-center text-center p-6 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="flex flex-col items-center text-center p-8 bg-white border border-gray-300 rounded-2xl shadow hover:shadow-lg transition">
         <div className="bg-black text-white p-4 rounded-full mb-4">
+          {/* Icon */}
           <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Inspection-Ready by Design</h3>
-        <p className="text-gray-600 text-sm">
-          Full audit trails and action logs ensure you're always inspection-ready.
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">Inspection-Ready by Design</h3>
+        <p className="text-gray-600 text-base">
+        - Every action is logged and auditable. With TheragenX,
+        you're always prepared for inspections—no last-minute scrambling. </p>
       </div>
     </div>
   </div>
 </section>
+
 
 
         {/* <section
@@ -845,7 +857,7 @@ decision-making at scale.
        
 
         {/* Wave Divider */}
-        <WaveDivider color="#ffffff" />
+      
       </main>
 
       {/* Footer */}
