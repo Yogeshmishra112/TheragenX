@@ -46,7 +46,7 @@ export default function AnalyticsPage() {
                        <div className="relative">
                          <div className="absolute -inset-0.5 rounded-lg bg-black opacity-75 blur-xl animate-pulse"></div>
                          <Image
-                           src="/medical-dashboard.jpg"
+                           src="/thirteen.jpg"
                            width={500}
                            height={500}
                            alt="Medical AI Dashboard"
@@ -89,7 +89,7 @@ export default function AnalyticsPage() {
                    {/* Left Image */}
                    <div className="relative w-full h-full">
                      <Image
-                       src="/fourth.jpeg"
+                       src="/twelve.jpg"
                        alt="TheraSentriX Visual"
                        layout="fill"
                        objectFit="cover"
@@ -374,148 +374,9 @@ export default function AnalyticsPage() {
                </div>
              </section>
 
-             {/* Real-Time Dashboards Section - Alternative Design */}
-             <section className="w-full py-16 md:py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
-               {/* Animated background elements */}
-               <div className="absolute inset-0">
-                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-500/10 via-transparent to-transparent"></div>
-                 <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(45deg,transparent_25%,rgba(68,68,68,.2)_50%,transparent_75%,transparent_100%)] bg-[length:250%_250%,100%_100%]"></div>
-               </div>
+            
 
-               <div className="container relative z-10 px-4 md:px-6 mx-auto">
-                 <div className="max-w-6xl mx-auto">
-                   {/* Header */}
-                   <div className="text-center mb-16">
-                     <h2 className="text-4xl font-bold text-white mb-6">
-                       Real-Time Safety Intelligence
-                     </h2>
-                     <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-                       Monitor, analyze, and respond to safety signals with our advanced real-time dashboard.
-                     </p>
-                   </div>
-
-                   {/* Main Content */}
-                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-                     {/* Left Side - Key Metrics */}
-                     <div className="lg:col-span-4 space-y-6">
-                       {/* Total Cases Card */}
-                       <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700">
-                         <div className="flex items-center justify-between mb-4">
-                           <h3 className="text-lg font-semibold text-white">Total Cases</h3>
-                           <span className="text-sm text-green-400">+12.5%</span>
-                         </div>
-                         <div className="flex items-baseline">
-                           <span className="text-3xl font-bold text-white">2,847</span>
-                           <span className="ml-2 text-sm text-gray-400">cases</span>
-                         </div>
-                         <div className="mt-4 h-2 bg-gray-700 rounded-full overflow-hidden">
-                           <div className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full" style={{ width: '75%' }}></div>
-                         </div>
-                       </div>
-
-                       {/* Active Signals Card */}
-                       <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700">
-                         <div className="flex items-center justify-between mb-4">
-                           <h3 className="text-lg font-semibold text-white">Active Signals</h3>
-                           <span className="text-sm text-yellow-400">12 new</span>
-                         </div>
-                         <div className="flex items-baseline">
-                           <span className="text-3xl font-bold text-white">42</span>
-                           <span className="ml-2 text-sm text-gray-400">signals</span>
-                         </div>
-                         <div className="mt-4 grid grid-cols-4 gap-2">
-                           <div className="h-1 bg-blue-500 rounded-full"></div>
-                           <div className="h-1 bg-blue-400 rounded-full"></div>
-                           <div className="h-1 bg-blue-300 rounded-full"></div>
-                           <div className="h-1 bg-blue-200 rounded-full"></div>
-                         </div>
-                       </div>
-
-                       {/* Compliance Status Card */}
-                       <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700">
-                         <div className="flex items-center justify-between mb-4">
-                           <h3 className="text-lg font-semibold text-white">Compliance</h3>
-                           <span className="text-sm text-green-400">98.5%</span>
-                         </div>
-                         <div className="flex items-center space-x-3">
-                           <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
-                             <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                             </svg>
-                           </div>
-                           <span className="text-sm text-gray-300">All systems compliant</span>
-                         </div>
-                       </div>
-                     </div>
-
-                     {/* Right Side - Activity Feed */}
-                     <div className="lg:col-span-8">
-                       <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 h-full">
-                         <div className="flex items-center justify-between mb-6">
-                           <h3 className="text-lg font-semibold text-white">Recent Activity</h3>
-                           <span className="text-sm text-gray-400">Last 24 hours</span>
-                         </div>
-                         
-                         <div className="space-y-4">
-                           {/* Activity Items */}
-                           <div className="flex items-start space-x-4 p-4 bg-gray-700/30 rounded-lg">
-                             <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0">
-                               <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                               </svg>
-                             </div>
-                             <div className="flex-1">
-                               <div className="flex items-center justify-between">
-                                 <h4 className="text-sm font-medium text-white">New Case Reported</h4>
-                                 <span className="text-xs text-gray-400">2m ago</span>
-                               </div>
-                               <p className="text-sm text-gray-300 mt-1">Case #2847: Adverse event reported in clinical trial</p>
-                             </div>
-                           </div>
-
-                           <div className="flex items-start space-x-4 p-4 bg-gray-700/30 rounded-lg">
-                             <div className="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0">
-                               <svg className="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                               </svg>
-                             </div>
-                             <div className="flex-1">
-                               <div className="flex items-center justify-between">
-                                 <h4 className="text-sm font-medium text-white">Signal Detected</h4>
-                                 <span className="text-xs text-gray-400">15m ago</span>
-                               </div>
-                               <p className="text-sm text-gray-300 mt-1">New safety signal identified in post-marketing data</p>
-                             </div>
-                           </div>
-
-                           <div className="flex items-start space-x-4 p-4 bg-gray-700/30 rounded-lg">
-                             <div className="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0">
-                               <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                               </svg>
-                             </div>
-                             <div className="flex-1">
-                               <div className="flex items-center justify-between">
-                                 <h4 className="text-sm font-medium text-white">Report Generated</h4>
-                                 <span className="text-xs text-gray-400">1h ago</span>
-                               </div>
-                               <p className="text-sm text-gray-300 mt-1">Monthly safety report completed and ready for review</p>
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-
-                   {/* Bottom Text */}
-                   <div className="mt-16 text-center">
-                     <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-                       Stay ahead of safety concerns with real-time monitoring and instant notifications.
-                     </p>
-                   </div>
-                 </div>
-               </div>
-             </section>
+            
 
              {/* Final Real-Time Dashboards Section */}
              <section className="w-full py-16 md:py-24 mt-2 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
@@ -680,13 +541,218 @@ export default function AnalyticsPage() {
                  </div>
                </div>
              </section>
+
+              {/* Global Compliance Section */}
+              <section className="w-full py-16 md:py-24 bg-gradient-to-br from-white to-gray-100 relative overflow-hidden border-2 border-gray-200 rounded-xl my-4 shadow-lg">
+               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100/50 via-transparent to-transparent shadow-2xl"></div>
+               
+               <div className="container relative z-10 px-4 md:px-6">
+                 <div className="max-w-5xl mx-auto">
+                   <div className="bg-white rounded-lg shadow-2xl shadow-slate-700 p-8 md:p-12 border border-gray-100 mb-16">
+                     <div className="text-center">
+                       <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black leading-tight mb-6">
+                         Built-In Compliance with Global Readiness
+                       </h2>
+                       <p className="text-gray-600 md:text-xl/relaxed lg:text-lg/relaxed leading-relaxed font-serif italic max-w-3xl mx-auto">
+                         Compliance isn't just an outcome—it's engineered into TheraSentriX, ensuring you stay inspection-ready—always.
+                       </p>
+                     </div>
+                   </div>
+
+                   <div className="space-y-12">
+                     {/* Global Standards Support */}
+                     <div className="group relative">
+                       <div className="absolute -inset-4 bg-gradient-to-r from-blue-600/10 to-indigo-600/10 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                       <div className="relative flex items-start space-x-6 p-6">
+                         <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 flex items-center justify-center">
+                           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                           </svg>
+                         </div>
+                         <div className="flex-1">
+                           <h3 className="text-xl font-bold text-gray-900 mb-2">Global Standards Support</h3>
+                           <p className="text-gray-600">Supports ICH E2B(R3), MedDRA, FDA FAERS, EMA EudraVigilance, PMDA, and more</p>
+                           <div className="mt-4 flex flex-wrap gap-2">
+                             <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm">ICH E2B(R3)</span>
+                             <span className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-sm">MedDRA</span>
+                             <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-sm">FDA FAERS</span>
+                             <span className="px-3 py-1 bg-pink-50 text-pink-700 rounded-full text-sm">EMA EudraVigilance</span>
+                             <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm">PMDA</span>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+
+                     {/* Smart Triage Engine */}
+                     <div className="group relative">
+                       <div className="absolute -inset-4 bg-gradient-to-r from-purple-600/10 to-pink-600/10 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                       <div className="relative flex items-start space-x-6 p-6">
+                         <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center">
+                           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                           </svg>
+                         </div>
+                         <div className="flex-1">
+                           <h3 className="text-xl font-bold text-gray-900 mb-2">Smart Triage Engine</h3>
+                           <p className="text-gray-600">Configurable rule engines to match evolving guidelines and requirements</p>
+                           <div className="mt-4 space-y-2">
+                             <div className="flex items-center space-x-2">
+                               <div className="w-2 h-2 rounded-full bg-purple-500"></div>
+                               <span className="text-gray-600">Dynamic rule configuration</span>
+                             </div>
+                             <div className="flex items-center space-x-2">
+                               <div className="w-2 h-2 rounded-full bg-pink-500"></div>
+                               <span className="text-gray-600">Automated workflow routing</span>
+                             </div>
+                             <div className="flex items-center space-x-2">
+                               <div className="w-2 h-2 rounded-full bg-purple-500"></div>
+                               <span className="text-gray-600">Real-time guideline updates</span>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+
+                     {/* Audit-Ready Architecture */}
+                     <div className="group relative">
+                       <div className="absolute -inset-4 bg-gradient-to-r from-teal-600/10 to-emerald-600/10 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                       <div className="relative flex items-start space-x-6 p-6">
+                         <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-r from-teal-600 to-emerald-600 flex items-center justify-center">
+                           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                           </svg>
+                         </div>
+                         <div className="flex-1">
+                           <h3 className="text-xl font-bold text-gray-900 mb-2">Audit-Ready Architecture</h3>
+                           <p className="text-gray-600">Full traceability from data source to submission with comprehensive audit trails</p>
+                           
+                           {/* Data Flow Visualization */}
+                           <div className="mt-4">
+                             {/* Desktop View */}
+                             <div className="hidden sm:block">
+                               <div className="flex items-center space-x-4">
+                                 <div className="flex-1 h-1 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-full"></div>
+                                 <span className="text-sm text-gray-500 whitespace-nowrap">Data Source</span>
+                                 <div className="flex-1 h-1 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-full"></div>
+                                 <span className="text-sm text-gray-500 whitespace-nowrap">Processing</span>
+                                 <div className="flex-1 h-1 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-full"></div>
+                                 <span className="text-sm text-gray-500 whitespace-nowrap">Submission</span>
+                               </div>
+                             </div>
+                             
+                             {/* Mobile View */}
+                             <div className="sm:hidden space-y-3">
+                               <div className="flex items-center space-x-3">
+                                 <div className="w-2 h-2 rounded-full bg-teal-500"></div>
+                                 <span className="text-sm text-gray-500">Data Source</span>
+                               </div>
+                               <div className="flex items-center space-x-3">
+                                 <div className="w-2 h-2 rounded-full bg-teal-500"></div>
+                                 <span className="text-sm text-gray-500">Processing</span>
+                               </div>
+                               <div className="flex items-center space-x-3">
+                                 <div className="w-2 h-2 rounded-full bg-teal-500"></div>
+                                 <span className="text-sm text-gray-500">Submission</span>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+
+                 
+                 </div>
+               </div>
+             </section>
+
+             {/* Conclusion Section - New Design */}
+             <section className="w-full py-16 md:py-24 bg-white relative overflow-hidden">
+               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-100/50 via-transparent to-transparent"></div>
+               
+               <div className="container relative z-10 px-4 md:px-6 mx-auto">
+                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                   {/* Left Side - Main Content */}
+                   <div className="space-y-8">
+                     <div className="space-y-4">
+                       <h2 className="text-4xl font-bold tracking-tight text-gray-900">
+                         Smarter Pharmacovigilance
+                        
+                       </h2>
+                       
+                       <div className="relative">
+                         <div className="absolute -inset-1 bg-gradient-to-r from-gray-900 to-gray-600 rounded-lg blur opacity-10"></div>
+                         <div className="relative bg-white rounded-lg p-6 md:p-8 border border-gray-100 shadow-lg">
+                           <p className="text-gray-600 text-lg leading-relaxed">
+                             TheraSentriX is built for pharmaceutical organizations that refuse to compromise on
+                             compliance, efficiency, or patient safety. With AI-first infrastructure, unified data, and end-to-
+                             end lifecycle support, TheraSentriX enables teams to not only meet today's safety demands—
+                             but anticipate tomorrow's.
+                           </p>
+                         </div>
+                       </div>
+                     </div>
+
+                   
+                   </div>
+
+                   {/* Right Side - Visual Elements */}
+                   <div className="relative">
+                     <div className="absolute -inset-4 bg-gradient-to-r from-gray-900/5 to-gray-600/5 rounded-2xl"></div>
+                     <div className="relative grid grid-cols-2 gap-4">
+                       {/* Feature Highlights */}
+                       <div className="space-y-4">
+                         <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+                           <div className="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center mb-3">
+                             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                             </svg>
+                           </div>
+                           <h3 className="font-semibold text-gray-900">AI-First</h3>
+                           <p className="text-sm text-gray-600">Built on advanced AI infrastructure</p>
+                         </div>
+                         <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+                           <div className="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center mb-3">
+                             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                             </svg>
+                           </div>
+                           <h3 className="font-semibold text-gray-900">Unified Data</h3>
+                           <p className="text-sm text-gray-600">Seamless integration across systems</p>
+                         </div>
+                       </div>
+                       <div className="space-y-4 mt-8">
+                         <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+                           <div className="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center mb-3">
+                             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                             </svg>
+                           </div>
+                           <h3 className="font-semibold text-gray-900">End-to-End</h3>
+                           <p className="text-sm text-gray-600">Complete lifecycle support</p>
+                         </div>
+                         <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
+                           <div className="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center mb-3">
+                             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                             </svg>
+                           </div>
+                           <h3 className="font-semibold text-gray-900">Future-Ready</h3>
+                           <p className="text-sm text-gray-600">Anticipate tomorrow's needs</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </section>
          </main>
 
          {/* Footer */}
          <footer className="w-full border-t bg-background py-6 md:py-0">
            <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
              <div className="flex items-center gap-2">
-               <Brain className="h-5 w-5 text-teal-600" />
+           
                <p className="text-sm text-gray-500">
                  © 2025 TheragenX. All rights reserved.
                </p>
